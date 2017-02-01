@@ -64,7 +64,6 @@ function simulateGame (testTitle, moves, winner) {
   console.log('Testing: ' + testTitle)
   console.log('-------------------------------')
   restart()
-
   expect('gameOver should return false at start of game', isGameOver(), false)
   expect('whoWon should return 0 at start of the game', whoWon(), 0)
 

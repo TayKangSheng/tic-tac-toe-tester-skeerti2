@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+    <meta charset="UTF-8">
+
+    <title>Test</title>
+</head>
+<body>
+  <h1>My Tic-Tac-Toe</h1>
+<p>
+  My Awesome project here
+</p>
+<div class="container">
+  <div class = "box"  data-num = "0"></div>
+  <div class = "box"  data-num = "1"></div>
+  <div class = "box"  data-num = "2"></div>
+  <div class = "box"  data-num = "3"></div>
+  <div class = "box"  data-num = "4"></div>
+  <div class = "box"  data-num = "5"></div>
+  <div class = "box"  data-num = "6"></div>
+  <div class = "box"  data-num = "7"></div>
+  <div class = "box"  data-num = "8"></div>
+</div>
+<button class = "button" type="button" name="restart">Restart Game</button>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Game Stats</button>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Game over</h4>
+      </div>
+      <div class="modal-body">
+        <p class= "modal-para"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./assets/js/testing-the-tester.js"></script>
+  <script src="./assets/js/tic-tac-tester.js"></script>
+</body>
+</html>

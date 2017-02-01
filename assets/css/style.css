@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: #EFEFF0;
+  font-family: 'Gochi Hand', cursive;
+  /*font-family: 'Cuprum', sans-serif;*/
+  color: #2B2D42;
+}
+
+h1 {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 60px;
+}
+
+.container {
+  background: #EFEFF0;
+  min-width: 300px;
+  width: 50%;
+  height: 75%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.container > div {
+  background: #70566D;
+  width: 33.33%;
+  height: 150px;
+  border: 1px solid #8D99AE;
+  border-radius: 10px;
+  font-size: 100px;
+  color: #9EE493;
+  line-height: 100px;
+  text-shadow: 0 0 0.2em #9EE493;
+}
